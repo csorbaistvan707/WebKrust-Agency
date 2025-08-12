@@ -1,0 +1,71 @@
+.logo {
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    font-size: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.card-title {
+    font-family: "Montserrat", sans-serif;
+    display: block;margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+p {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+.card {
+    display: inline-block;
+    width:50%;
+}
+.title-image {
+    float: left;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+footer {
+    display: block;
+    clear: both;
+    text-align: right;
+    color: midnightblue;
+    margin-top: 350px;
+    }
+
+@media (max-width: 680px) {
+    .logo {
+    width: 100px;
+    height: 100px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .card {
+        width: 95%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 7.5px;
+        margin-right: 20px;
+    }
+    .left {
+        clear: both;
+    }
+    .right {
+        clear: both;
+    }
+    .title-image {
+    width: 100%;
+}
+}
